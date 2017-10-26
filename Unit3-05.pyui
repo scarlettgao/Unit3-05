@@ -1,0 +1,88 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {555, 528}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{35, 34}, {355, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "Enter_an_integer_to_calculate_its_factorial_label",
+          "frame" : "{{203, 248}, {150, 32}}",
+          "uuid" : "75A5FFDE-2EBA-4CC8-B135-1E763B509192",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter an integer to calculate its factorial",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{35, 101}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "user_number_textbox",
+          "frame" : "{{178, 248}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "5384EA30-9FC6-49D9-8040-1442BAB55296",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{35, 168}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{238, 248}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "88FCCE87-81BB-441D-ACA2-37FB47BA7F62",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{35, 234}, {346, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{203, 248}, {150, 32}}",
+          "uuid" : "038C5BAE-BA39-414A-8CB6-31078468B7FF",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "the answer is:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
